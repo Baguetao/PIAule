@@ -1,0 +1,13 @@
+<p>Atividade 06</p>
+
+<p>Quantidade: {{ quantidade }}</p>
+
+<button
+  (click)="diminuir()"
+  [disabled]="quantidade === 0">
+  -
+</button>
+
+<button (click)="aumentar()">
+  +
+</button>

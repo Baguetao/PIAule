@@ -8,11 +8,14 @@ import { App } from './app';
   declarations: [
     App
   ],
+
   imports: [
     BrowserModule,
     AppRoutingModule
   ],
+
   providers: [],
+
   bootstrap: [App]
 })
 export class AppModule {}
